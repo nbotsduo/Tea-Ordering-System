@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>Kedai Teh | Login Page</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/login/style.css">
+
+
+
+</head>
+
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Login Selector Page</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div
+							class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+							<div class="text w-100">
+								<h2>Welcome to Kedai Teh</h2>
+								<p>Don't have an account?</p>
+								<p>Open now to enjoy the benefit for becoming fellow
+									tehrians</p>
+								<a href="register.jsp" class="btn btn-white btn-outline-white">Sign
+									Up</a>
+							</div>
+						</div>
+						<div class="login-wrap p-4 p-lg-5">
+							<div class="d-flex">
+								<div class="w-100">
+									<h3 class="mb-4">Log In As</h3>
+								</div>
+							</div>
+							<form action="loginUser.jsp">
+							<button type="submit" class="form-control btn btn-primary submit px-3">Customer</button>
+							</form>
+							<br>
+							<form action="loginAdmin.html">
+							<button type="submit"class="form-control btn btn-primary submit px-3">Admin</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/login/jquery.min.js"></script>
+	<script src="js/login/popper.js"></script>
+	<script src="js/login/bootstrap.min.js"></script>
+	<script src="js/login/main.js"></script>
+
+</body>
+
+</html>
